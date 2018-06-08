@@ -4,7 +4,8 @@ A prototype front end modelling and renderer for MilliStory
 ## Concept
 Catalog: is a service which consists of all the artefacts required in
 the story.
-the id is a unique reference, should start with ```_``` "underscore"
+
+The id is a unique reference, should start with ```_``` "underscore"
 
 Artefacts: consists of the resources to be rendered with other 
 type specific to content-type
