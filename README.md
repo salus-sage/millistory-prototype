@@ -16,15 +16,24 @@ ref column will contain the id from the catalog
 
 ## Types
 Current Types that can be used in the catalog
+
 banner: banner image for the story
+
 title: Title for the story
+
 heading: heading of a section
+
 paragraph: This cell can take html in case of multiple paragraphs,
 wrap each in ```<p> </p>```` tag.
+
 paragraph:blockquote: is a block quote
+
 image:slide: renders one or many images, optional caption and rights
+
 inline:audio: audio inline to it's previous paragraph, optional caption and rights
+
 block: audio: block audio in new line, optional caption and rights
+
 inline:link: anchor links, and link text
 
 
