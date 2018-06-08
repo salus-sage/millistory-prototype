@@ -29,8 +29,8 @@
         {
             "id": "_ch-inline",
             "type": "inline:audio",
-            "resource": "url to mp3",
-            "resourceCaption": "caption for audio"
+            "resource": "http://archives.ncbs.res.in/files/original/51cf6e3f936df270bce325956864e159.mp3",
+            "resourceCaption": "To know what came of it, click on the interview and images of MS Swaminathan, who was then at the Indian Agricultural Research Institute in Delhi"
         },
         {
             "id": "_ch-block",
@@ -68,6 +68,11 @@
             "id": "_head-banner",
             "type": "banner",
             "resource": "http://archives.ncbs.res.in/exhibit/13ways/imgs/Ephemera/2016-TIFR-bird-graffiti.JPG"
+        },
+        {
+            "id": "_space-p-3",
+            "type": "paragraph",
+            "resource": "The NBL never materialized. The idea kept resurfacing through the 1960s and 1970s. What did come up over the years was a Centre for Cellular and Molecular Biology (CCMB) in the late 1970s. And then, later, a National Institute of Immunology and a National Centre for Biological Sciences."
         }
     ],
     "story-template": [
@@ -107,22 +112,22 @@
             "align": "left"
         },
         {
-            "ref": "_ch-inline",
-            "group": "Space",
-            "align": "no-align"
-        },
-        {
             "ref": "_id-slide-1",
             "group": "Space",
             "align": "right"
         },
         {
-            "ref": "_some-link",
+            "ref": "_space-p-2",
+            "group": "Space",
+            "align": "center"
+        },
+        {
+            "ref": "_ch-inline",
             "group": "Space",
             "align": "no-align"
         },
         {
-            "ref": "_space-p-2",
+            "ref": "_space-p-3",
             "group": "Space",
             "align": "center"
         }
