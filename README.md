@@ -1,6 +1,17 @@
 # millistory-prototype
 A prototype front end modelling and renderer for MilliStory
 
+## Get Started
+- First, create a copy of this google sheet. 
+[MilliStory template](https://docs.google.com/spreadsheets/d/1RSzj7j8pdhA-bLhSP-8ofFfN-fs4PD2Bxp7-Q3HKHdM/edit#gid=2080781762)
+- In the catalog sheet, each row is a resource with the type specified. see below for more on Types.
+- In the story-template sheet, add the ref column which will be the ID from the catalog sheet.
+The order of items in the story sheet will be the same when it is rendered in the browser, with a default theme.
+
+## Guide
+To be added
+
+
 ## Concept
 Catalog: is a service which consists of all the artefacts required in
 the story.
