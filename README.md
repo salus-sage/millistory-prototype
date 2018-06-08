@@ -10,7 +10,8 @@ Artefacts: consists of the resources to be rendered with other
 type specific to content-type
 
 Story: is just a list of references to the catalog, 
-with styling and section
+with styling and section. 
+
 ref column will contain the id from the catalog
 
 
