@@ -34,7 +34,7 @@ inline:audio: audio inline to it's previous paragraph, optional caption and righ
 
 block: audio: block audio in new line, optional caption and rights
 
-inline:link: anchor links, and link text
+inline:link- anchor links, and link text
 
 
 ### TODO
