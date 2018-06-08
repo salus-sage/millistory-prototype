@@ -38,10 +38,10 @@ inline:link: anchor links, and link text
 
 
 ### TODO
-layout based on the align column
-enhancements to rendered to handle banner
-iniline:audio and block:audio
-handling resource captions
-style enhancements
-Documentation and guides
+- layout based on the align column
+- enhancements to rendered to handle banner
+- iniline:audio and block:audio
+- handling resource captions
+- style enhancements
+- Documentation and guides
 
