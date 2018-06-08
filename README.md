@@ -9,7 +9,8 @@ A prototype front end modelling and renderer for MilliStory
 The order of items in the story sheet will be the same when it is rendered in the browser, with a default theme.
 
 ## Guide
-To be added
+An example [sheet](https://docs.google.com/spreadsheets/d/1CqezhpQsicBRXPuEcJzjliER4LoxrmkI8wdcQPLT9Ts/edit#gid=0)
+and the [Demo](https://salus-sage.github.io/millistory-prototype/)
 
 
 ## Concept
