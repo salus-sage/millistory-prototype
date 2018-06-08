@@ -24,7 +24,7 @@ title: Title for the story
 heading: heading of a section
 
 paragraph: This cell can take html in case of multiple paragraphs,
-wrap each in ```<p> </p>```` tag.
+wrap each in ```<p> </p>``` tag.
 
 paragraph:blockquote: is a block quote
 
