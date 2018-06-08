@@ -1,5 +1,5 @@
-{
-    "catalog": [
+window.story = {
+    "catalog":[
         {
             "id": "_identity-title",
             "type": "title",
@@ -13,7 +13,7 @@
         {
             "id": "_id-slide-1",
             "type": "image:slide",
-            "resource": "comma seperated image url's",
+            "resource": "http://archives.ncbs.res.in/files/fullsize/39ab5305eb5340036e5c59469cc6b1e2.jpg, http://archives.ncbs.res.in/files/fullsize/f41bfee4c0929ef0a527bbe3fee5e66c.jpg, http://archives.ncbs.res.in/files/fullsize/6eb0294f1ba39ab50f8163a3e985069f.jpg",
             "resourceCaption": "caption for images, comma seperated same order"
         },
         {
@@ -29,8 +29,8 @@
         {
             "id": "_ch-inline",
             "type": "inline:audio",
-            "resource": "url to mp3",
-            "resourceCaption": "caption for audio"
+            "resource": "http://archives.ncbs.res.in/files/original/51cf6e3f936df270bce325956864e159.mp3",
+            "resourceCaption": "To know what came of it, click on the interview and images of MS Swaminathan, who was then at the Indian Agricultural Research Institute in Delhi"
         },
         {
             "id": "_ch-block",
@@ -58,9 +58,34 @@
             "id": "_space-quote",
             "type": "paragraph:blockquote",
             "resource": "\"We are now entering into an age when scientists begin to function like the high priests of old, who looked after the sacred mysteries; we all bow down to them in reverence and awe, and sometimes, with a little fear, as to what they might be up to.\" – Jawaharlal Nehru, TIFR inauguration, 1962."
+        },
+        {
+            "id": "_space-p-2",
+            "type": "paragraph",
+            "resource": "It was in this environment, at the time of the Third Five Year Plan (1960-1965), when the government was looking for gaps in the national outlook on science. There was no national space for biology, like, say, the National Physical Laboratory and National Chemical Laboratory. The Third Plan addressed this gap with a mention of a National Biological Laboratory (NBL)."
+        },
+        {
+            "id": "_head-banner",
+            "type": "banner",
+            "resource": "http://archives.ncbs.res.in/exhibit/13ways/imgs/Ephemera/2016-TIFR-bird-graffiti.JPG"
+        },
+        {
+            "id": "_space-p-3",
+            "type": "paragraph",
+            "resource": "The NBL never materialized. The idea kept resurfacing through the 1960s and 1970s. What did come up over the years was a Centre for Cellular and Molecular Biology (CCMB) in the late 1970s. And then, later, a National Institute of Immunology and a National Centre for Biological Sciences."
         }
     ],
-    "story-template": [
+    "story": [
+        {
+            "ref": "_light-theme",
+            "group": "Global",
+            "align": "no-align"
+        },
+        {
+            "ref": "_head-banner",
+            "group": "Global",
+            "align": "center"
+        },
         {
             "ref": "_identity-title",
             "group": "Identity",
@@ -87,24 +112,24 @@
             "align": "left"
         },
         {
-            "ref": "_ch-inline",
-            "group": "Space",
-            "align": "no-align"
-        },
-        {
             "ref": "_id-slide-1",
             "group": "Space",
             "align": "right"
         },
         {
-            "ref": "_light-theme",
-            "group": "Global",
+            "ref": "_space-p-2",
+            "group": "Space",
+            "align": "center"
+        },
+        {
+            "ref": "_ch-inline",
+            "group": "Space",
             "align": "no-align"
         },
         {
-            "ref": "_some-link",
+            "ref": "_space-p-3",
             "group": "Space",
-            "align": "no-align"
+            "align": "center"
         }
     ]
 }

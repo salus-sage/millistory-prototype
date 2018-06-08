@@ -147,7 +147,7 @@ M.templates = {};
 
 M.templates.blockTemplates = {
 	paragraphTpl: function(arg){
-		console.log(arg, "from template");
+
 		return $.el.p({name: arg.name}, $.el.div(arg.content.resource));
 	},
 	titleTpl: function(arg){
@@ -158,7 +158,7 @@ M.templates.blockTemplates = {
 		return $.el.h2({name: arg.name}, arg.content.resource);
 	},
 	imgTpl: function(arg){
-		console.log("image template");
+		console.log(arg, "image");
 		return $.el.img({src: arg.content.resource, name: arg.id});
 	},
 	bquoteTpl: function(arg){
@@ -167,17 +167,18 @@ M.templates.blockTemplates = {
 	linkTpl: function(arg){
 		return $.el.a({name: arg.name, href: arg.content.resource}, arg.content.resource);
 	},
-	galleryTpl: function(list){
-		return $.el.ul({name: arg.name}, 
-						$.el.li({name: "gallery-item"},
-							$.el.img({src: arg.src, name: arg.content.resource})
-							));
-		/*return list.map(function(item){
-			if(item.type === 'image'){
-				return this.imgTpl({src: item.src, name: item.id});
-			}
-			
-		}, this);*/
+	galleryTpl: function(arg){
+		var src = arg.content.resource;
+		var oneOrMany = src.split(',');
+
+		return $.el.ul({name: arg.name, "data-type": "slide"}, (function() {
+			return oneOrMany.map(function(url){
+			return $.el.li({"name": "gallery-item", "data-src": url},
+						$.el.img({src: url })
+						)
+		});
+		})());
+		
 	}
 };
 
@@ -254,12 +255,12 @@ M.views.pageView.prototype = {
 			return M.templates.blockTemplates.linkTpl;
 			break
 
-			case 'image':
+			case 'banner':
 			return M.templates.blockTemplates.imgTpl;
 			break;
 
 			case 'image:slide':
-			return M.templates.blockTemplates.imgTpl;
+			return M.templates.blockTemplates.galleryTpl;
 			break;
 
 			case 'paragraph:blockquote':
