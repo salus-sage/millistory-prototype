@@ -13,7 +13,7 @@ window.story = {
         {
             "id": "_id-slide-1",
             "type": "image:slide",
-            "resource": "http://archives.ncbs.res.in/files/fullsize/39ab5305eb5340036e5c59469cc6b1e2.jpg, http://archives.ncbs.res.in/files/fullsize/f41bfee4c0929ef0a527bbe3fee5e66c.jpg, http://archives.ncbs.res.in/files/fullsize/6eb0294f1ba39ab50f8163a3e985069f.jpg",
+            "resource": "http://stories.archives.ncbs.res.in/files/fullsize/39ab5305eb5340036e5c59469cc6b1e2.jpg, http://stories.archives.ncbs.res.in/files/fullsize/f41bfee4c0929ef0a527bbe3fee5e66c.jpg, http://stories.archives.ncbs.res.in/files/fullsize/6eb0294f1ba39ab50f8163a3e985069f.jpg",
             "resourceCaption": "caption for images, comma seperated same order"
         },
         {
@@ -29,7 +29,7 @@ window.story = {
         {
             "id": "_ch-inline",
             "type": "inline:audio",
-            "resource": "http://archives.ncbs.res.in/files/original/51cf6e3f936df270bce325956864e159.mp3",
+            "resource": "http://stories.archives.ncbs.res.in/files/original/51cf6e3f936df270bce325956864e159.mp3",
             "resourceCaption": "To know what came of it, click on the interview and images of MS Swaminathan, who was then at the Indian Agricultural Research Institute in Delhi"
         },
         {
@@ -67,7 +67,7 @@ window.story = {
         {
             "id": "_head-banner",
             "type": "banner",
-            "resource": "http://archives.ncbs.res.in/exhibit/13ways/imgs/Ephemera/2016-TIFR-bird-graffiti.JPG"
+            "resource": "http://stories.archives.ncbs.res.in/exhibit/13ways/imgs/Ephemera/2016-TIFR-bird-graffiti.JPG"
         },
         {
             "id": "_space-p-3",
